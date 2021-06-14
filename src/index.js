@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { TodoApp } from './components/08-useReducer/TodoApp';
 //import { CallbackHook } from './components/06-memos/CallbackHook';
-import { Padre } from './components/07-tarea-memo/Padre';
+//import { Padre } from './components/07-tarea-memo/Padre';
 //import { MemoHook } from './components/06-memos/MemoHook';
 //import { FocusScreen } from './components/04-useRef.js/FocusScreen';
 //import { RealExampleRef } from './components/04-useRef.js/RealExampleRef';
@@ -17,9 +18,11 @@ import { Padre } from './components/07-tarea-memo/Padre';
 
 ReactDOM.render(
   
-    <Padre/>,
+    <TodoApp/>,
  
   document.getElementById('root')
 );
 
+
+//import '../src/components/08-useReducer/intro-reducer';
 
